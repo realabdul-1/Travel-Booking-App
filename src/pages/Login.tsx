@@ -6,7 +6,11 @@ const Login = () => {
     <div className="min-h-[calc(100vh-4rem)] flex items-center justify-center px-4">
       <div className="max-w-md w-full space-y-8 bg-gray-800 p-8 rounded-xl shadow-xl">
         <div className="text-center">
-          <Globe className="mx-auto h-12 w-12 text-blue-400" />
+          <img 
+            src="/src/assets/logo.webp" 
+            alt="TravelHub Logo"
+            className="mx-auto h-12 w-12"
+          />
           <h2 className="mt-6 text-3xl font-bold">Welcome back</h2>
           <p className="mt-2 text-gray-400">Sign in to your account</p>
         </div>

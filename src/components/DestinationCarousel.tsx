@@ -62,6 +62,7 @@ const DestinationCarousel = () => {
   };
 
   return (
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <Slider {...settings}>
       {destinations.map((destination) => (
         <div key={destination.id} className="px-2">
@@ -79,6 +80,7 @@ const DestinationCarousel = () => {
         </div>
       ))}
     </Slider>
+    </div>
   );
 };
 

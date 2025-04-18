@@ -9,7 +9,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <Globe className="w-8 h-8 text-blue-400" />
+            <img 
+            src="/src/assets/logo.webp" 
+            alt="TravelHub Logo"
+            className="w-8 h-8"
+          />
               <span className="text-xl font-bold">TravelHub</span>
             </Link>
             <div className="hidden md:block ml-10">
