@@ -1,18 +1,12 @@
 {
   "name": "vite-react-typescript-starter",
-  "homepage": "https://realabdul-1.github.io/Travel-Booking-App"
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://realabdul-1.github.io/Travel-Booking-App",
+  "homepage": "https://realabdul-1.github.io/Travel-Booking-App/",
   "scripts": {
-<<<<<<< HEAD
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist",
-=======
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
->>>>>>> 6a73ce5 (Major Improvements)
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

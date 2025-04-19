@@ -7,7 +7,7 @@ const Login = () => {
       <div className="max-w-md w-full space-y-8 bg-gray-800 p-8 rounded-xl shadow-xl">
         <div className="text-center">
           <img 
-            src="/src/assets/logo.webp" 
+            src="./src/assets/logo.webp" 
             alt="TravelHub Logo"
             className="mx-auto h-12 w-12"
           />

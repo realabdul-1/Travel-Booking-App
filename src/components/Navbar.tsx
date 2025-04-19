@@ -10,7 +10,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
             <img 
-            src="/src/assets/logo.webp" 
+            src="./src/assets/logo.webp" 
             alt="TravelHub Logo"
             className="w-8 h-8"
           />
